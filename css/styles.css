@@ -1,0 +1,133 @@
+head {
+  display: none;
+}
+div {
+  display: block;
+}
+h1 {
+  font-family: "Oswald";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "oswald";
+  font-weight: bold;
+}
+body {
+  font-family: "roboto";
+}
+
+#title {
+  background-color: #000;
+  color: #fff;
+  display: grid;
+  height: 30rem;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-template-rows: 2fr 2fr;
+  }
+.top-rent {
+  grid-column: 2;
+  align-self: center;
+  text-align: center;
+}
+.header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+}
+.top-image {
+  grid-area: 2/2/2/2;
+  align-self: center;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.header-download {
+  grid-area: 2/3/2/4;
+  text-align: center;
+}
+#features {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  gap: 10rem;
+  margin: 5rem;
+  text-align: center;
+}
+#feedbacks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  background-color: #f0efef;  
+  text-align: center;
+}
+nav{
+grid-area: 1/4/1/5;
+text-align: end;
+align-self: center;
+text-align: center;
+margin: 0 20rem 0 5rem;
+background-color: #000;
+}
+.nav-item > a{
+  color: #d6ccc2;
+}
+.nav-item > a:hover {
+  color: #fff;
+}
+#feedbacks p {
+  font-style: oblique;
+  font-size: large;
+  color: #003049;
+  display: inline;
+}
+#partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5rem;
+  background-color: #f0efef;  
+  margin-top: 0;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+}
+#partners img {
+  height: 5rem;
+}
+#pricing {
+  justify-content: space-around;
+}
+#pricing div {
+  display: inline-block;
+}
+.card {
+  display: inline-block;
+  margin: 0 0 20px 100px;
+  text-align: center;
+}
+#footer {
+  background-color: #f0efef;
+  font-size: small;
+  font-weight: bold;
+  font-style: Satisfy;
+  color: #000000;
+  padding-top: 1rem;
+  text-align: center;
+  height: 3rem;
+}
+@media screen {
+  #title {
+    width: 100%;
+  }
+}
